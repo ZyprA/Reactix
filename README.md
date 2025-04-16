@@ -1,5 +1,5 @@
 
-  <img src="[https://your-image-host.com/reactix-logo.png](https://github.com/ZyprA/Reactix/blob/main/logo.png?raw=true)" width="200" alt="Reactix Logo" />
+  <img src="https://github.com/ZyprA/Reactix/blob/main/logo.png?raw=true" width="200" alt="Reactix Logo" />
 
 # Reactix
 
