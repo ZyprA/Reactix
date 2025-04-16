@@ -1,6 +1,4 @@
-### Reactix - Reactive event registration API for minecraft.
-
-# Reactix
+# Reactix - Reactive event registration API for minecraft.
 
 Reactix is a SUPER lightweight reactive event API for Spigot and Paper plugins.  
 It allows you to handle Bukkit events in a functional, chainable style.
