@@ -1,7 +1,7 @@
-
-  <img src="https://github.com/ZyprA/Reactix/blob/main/logo.png?raw=true" width="200" alt="Reactix Logo" />
-
-# Reactix
+<p align="center">
+  <img src="[https://your-image-link.com/icon.png](https://github.com/ZyprA/Reactix/blob/main/logo.png?raw=true)" height="64" />
+  <span style="font-size: 2rem; font-weight: bold; margin-left: 12px;">Reactix</span>
+</p>
 
 Reactix is a lightweight reactive event API for Spigot and Paper plugins.  
 It allows you to handle Bukkit events in a functional, chainable style.
