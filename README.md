@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://your-image-link.com/icon.png](https://github.com/ZyprA/Reactix/blob/main/logo.png?raw=true)" height="64" />
+  <img src="https://github.com/ZyprA/Reactix/blob/main/logo.png?raw=true" height="64" />
   <span style="font-size: 2rem; font-weight: bold; margin-left: 12px;">Reactix</span>
 </p>
 
