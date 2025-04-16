@@ -1,9 +1,7 @@
-# Reactix - Reactive event registration API for minecraft.
+# Reactix
 
-Reactix is a SUPER lightweight reactive event API for Spigot and Paper plugins.  
+Reactix is a lightweight reactive event API for Spigot and Paper plugins.  
 It allows you to handle Bukkit events in a functional, chainable style.
-
-Happy: You do not have to register event listener on your project.
 
 ---
 
@@ -23,4 +21,35 @@ You can use operators like `map`, `filter`, `flatMap`, `distinct`, `buffer`, and
 
 ---
 
-MIT Licensed
+## 📦 Installation
+
+- Reactix is **not a plugin**. Do **not** place it in the `plugins/` folder.
+- Use [JitPack](https://jitpack.io/) to add it as a dependency via Gradle or Maven.
+- You must **include it in your plugin's Fat Jar** using [Shadow](https://github.com/johnrengelman/shadow) or similar.
+
+### Example for Gradle(PLEASE WAIT):
+
+```kotlin
+repositories {
+    maven { url = uri("https://jitpack.io") }
+}
+
+dependencies {
+    implementation("com.github.username:Reactix:1.0.0") // Replace with your repo
+}
+
+tasks {
+    shadowJar {
+        archiveClassifier.set("")
+    }
+    build {
+        dependsOn(shadowJar)
+    }
+}
+```
+
+---
+
+## 📝 License
+
+MIT
