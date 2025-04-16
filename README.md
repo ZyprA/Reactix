@@ -24,10 +24,10 @@ You can use operators like `map`, `filter`, `flatMap`, `distinct`, `buffer`, and
 ## 📦 Installation
 
 - Reactix is **not a plugin**. Do **not** place it in the `plugins/` folder.
-- Use [JitPack](https://jitpack.io/) to add it as a dependency via Gradle or Maven.
+- Use [JitPack]([https://jitpack.io/](https://jitpack.io/#ZyprA/Reactix/)) to add it as a dependency via Gradle or Maven.
 - You must **include it in your plugin's Fat Jar** using [Shadow](https://github.com/johnrengelman/shadow) or similar.
 
-### Example for Gradle(PLEASE WAIT):
+### Example for Gradle:
 
 ```kotlin
 repositories {
@@ -35,7 +35,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.username:Reactix:1.0.0") // Replace with your repo
+       implementation 'com.github.ZyprA:Reactix:-SNAPSHOT'
 }
 
 tasks {
