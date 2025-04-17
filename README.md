@@ -50,6 +50,11 @@ tasks {
 
 ---
 
-## 📝 License
+## License
 
-This project is licensed under the MIT License. See LICENSE for details.
+Reactix is licensed under the MIT License.  
+Copyright (c) 2025 Zypr.
+
+You are free to use, modify, and distribute this software as long as the original copyright and license
+notice are retained. See the [LICENSE](./LICENSE) file for full details.
+
