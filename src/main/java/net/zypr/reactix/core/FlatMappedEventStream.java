@@ -1,7 +1,5 @@
 package net.zypr.reactix.core;
 
-import org.bukkit.event.Event;
-
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;

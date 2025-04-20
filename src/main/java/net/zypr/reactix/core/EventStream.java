@@ -13,7 +13,7 @@ import java.util.function.Predicate;
 public class EventStream<T extends Event> extends AbstractStream<T>{
     private final Class<T> eventClass;
     private final Plugin plugin;
-    private Predicate<T> filter = e -> true;
+    private final Predicate<T> filter = e -> true;
 
     public EventStream(Class<T> eventClass, Plugin plugin) {
         this.eventClass = eventClass;
