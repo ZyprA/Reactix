@@ -24,7 +24,7 @@ public class Reactix extends JavaPlugin {
         return instance;
     }
 
-    public static<T extends Event> EventStream<T> on (Class<T> eventType, Plugin plugin) {
-        return new EventStream<>(eventType, plugin);
+    public static<T extends Event> EventStream<T> on (Class<T> eventType) {
+        return new EventStream<>(eventType, Reactix.getInstance());
     }
 }
