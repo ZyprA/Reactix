@@ -23,9 +23,8 @@ You can use operators like `map`, `filter`, `flatMap`, `distinct`, `buffer`, and
 
 ## 📦 Installation
 
-- Reactix is **not a plugin**. Do **not** place it in the `plugins/` folder.
+- Reactix is **a plugin**. Place it in the `plugins/` folder.
 - Use [JitPack]([https://jitpack.io/](https://jitpack.io/#ZyprA/Reactix/)) to add it as a dependency via Gradle or Maven.
-- You must **include it in your plugin's Fat Jar** using [Shadow](https://github.com/johnrengelman/shadow) or similar.
 
 ### Example for Gradle:
 
@@ -38,14 +37,6 @@ dependencies {
        implementation 'com.github.ZyprA:Reactix:-SNAPSHOT'
 }
 
-tasks {
-    shadowJar {
-        archiveClassifier.set("")
-    }
-    build {
-        dependsOn(shadowJar)
-    }
-}
 ```
 
 ---
